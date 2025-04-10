@@ -12,7 +12,7 @@ hivemqExtension {
     author = "HiveMQ"
     priority = 1000
     startPriority = 1000
-    mainClass = "$group.helloworld.HelloWorldMain"
+    mainClass = "$group.session.HelloWorldMain"
     sdkVersion = "$version"
 
     resources {
