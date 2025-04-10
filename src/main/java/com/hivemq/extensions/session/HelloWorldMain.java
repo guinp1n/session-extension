@@ -111,7 +111,7 @@ public class HelloWorldMain implements ExtensionMain {
                                                 Thread.currentThread().interrupt();
                                                 log.warn("Sleep interrupted after session removal", e);
                                             }
-                                            
+
                                         } else {
                                             if(throwable instanceof NoSuchClientIdException){
                                                 log.info(">>Client not found" + " " + clientId);
